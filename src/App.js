@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />   
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/React_frenzy/" element={<Home />} />   
+          <Route path="/React_frenzy/menu" element={<Menu />} />
+          <Route path="/React_frenzy/about" element={<About />} />
+          <Route path="/React_frenzy/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
